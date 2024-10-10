@@ -354,7 +354,12 @@ public class Client {
 						/*
 						 * TODO: Complete this thread.
 						 */
+						InputStream in = socket.getInputStream();
 						
+
+
+						log.info("File transfer complete.");
+
 					} finally {
 						socket.close();
 					}
